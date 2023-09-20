@@ -3,7 +3,6 @@
     "name": "audio-player",
     "slug": "audio-player",
     "version": "1.0.0",
-    "sdkVersion": "44.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
