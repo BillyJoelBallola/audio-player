@@ -3,11 +3,12 @@
     "name": "audio-player",
     "slug": "audio-player",
     "version": "1.0.0",
+    "sdkVersion": "44.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/images/icon.png",
+    "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./src/assets/images/splash.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +16,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bjay19.audioplayer"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/images/adaptive.png",
+        "foregroundImage": "./assets/images/adaptive.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bjay19.audioplayer"
     },
     "web": {
-      "favicon": "./src/assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     },
     "extra": {
       "eas": {

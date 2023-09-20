@@ -1,23 +1,22 @@
 import { useFonts } from 'expo-font';
-import * as SplashScreen from 'expo-splash-screen';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { useCallback } from "react";
-
-import Player from './src/screen/Player';
-import Onboarding from './src/screen/Onboarding';
 import BottomTabNavigation from './src/navigation/ButtomTabNavigation';
 import { SoundContextProvider } from './src/context/SoundContext';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native';
+import * as SplashScreen from 'expo-splash-screen';
+import Onboarding from './src/screen/Onboarding';
+import Player from './src/screen/Player';
+import { useCallback } from "react";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
 
   const [fontsLoaded] = useFonts({
-    regular: require('./src/assets/fonts/regular.otf'),
-    medium: require('./src/assets/fonts/medium.otf'),
-    bold: require('./src/assets/fonts/bold.otf'),
-    light: require('./src/assets/fonts/light.otf'),
-    xtrabold: require('./src/assets/fonts/xtrabold.otf'),
+    regular: require('./assets/fonts/regular.otf'),
+    medium: require('./assets/fonts/medium.otf'),
+    bold: require('./assets/fonts/bold.otf'),
+    light: require('./assets/fonts/light.otf'),
+    xtrabold: require('./assets/fonts/xtrabold.otf'),
   });
   
   useCallback(async () => {

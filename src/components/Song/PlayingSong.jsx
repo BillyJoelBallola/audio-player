@@ -1,7 +1,7 @@
 import { StyleSheet, View, Image, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import AssetImage from '../Reusable/AssetImage';
-import disk from "../../assets/images/disk.png";
+import disk from "../../../assets/images/disk.png";
 import reusable from '../Reusable/reusable.style';
 import { Ionicons } from '@expo/vector-icons';
 import ReusableText from '../Reusable/ReusableText';

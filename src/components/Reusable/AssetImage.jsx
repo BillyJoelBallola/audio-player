@@ -1,10 +1,10 @@
 import { Image, StyleSheet } from 'react-native';
-import meImage from '../../assets/images/me.jpg';
-import onboardingImg from '../../assets/images/onboarding.jpg';
-import placeHolder from '../../assets/images/music_icon.png';
-import banner from "../../assets/images/banner.jpg";
-import banner1 from "../../assets/images/banner1.jpg";
-import banner2 from "../../assets/images/banner2.jpg";
+import meImage from '../../../assets/images/me.jpg';
+import onboardingImg from '../../../assets/images/onboarding.jpg';
+import placeHolder from '../../../assets/images/music_icon.png';
+import banner from "../../../assets/images/banner.jpg";
+import banner1 from "../../../assets/images/banner1.jpg";
+import banner2 from "../../../assets/images/banner2.jpg";
 import React from 'react';
 
 const AssetImage = ({ source, width, height, radius }) => {

@@ -8,7 +8,7 @@ import HeightSpacer from '../components/Reusable/HeightSpacer';
 import ControlCenter from '../components/Player/ControlCenter';
 import SongInfo from '../components/Player/SongInfo';
 import { SoundContext } from '../context/SoundContext';
-import disk from "../assets/images/disk.png";
+import disk from "../../assets/images/disk.png";
 import { Audio } from 'expo-av';
 
 const Player = ({ navigation }) => {
